@@ -5,5 +5,3 @@ A simple to-do list made with React. This project can not store your information
 This project is still coded with a bit of a Vanilla JavaScript mindset, and can be improved later.
 
 Type in your goal and click the "Add Goal" button, you will see it displayed in your list in the middle of the screen. Then, you can click the items in the list to delete them.
-
-bump!
