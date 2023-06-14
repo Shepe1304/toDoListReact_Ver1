@@ -4,6 +4,6 @@ function App() {
   return (
     <GoalList></GoalList>
   );
-}
+} 
 
 export default App;

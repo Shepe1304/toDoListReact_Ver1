@@ -19,13 +19,13 @@ const GoalList = () => {
       newGoalBlock.addEventListener("click", deleteGoal);
       goalList.appendChild(newGoalBlock);
       const tmpToDelete = document.querySelector(".tmp");
-      if (tmpToDelete != undefined) tmpToDelete.remove();
+      if (tmpToDelete !== undefined) tmpToDelete.remove();
     }
   };
 
   const deleteGoal = (e) => {
     e.target.remove();
-    if (goalList.children.length == 0) {
+    if (goalList.children.length === 0) {
       const tmp = document.createElement("div");
       tmp.setAttribute("class", "tmp");
       tmp.textContent = "No goals yet. Maybe add one?";
